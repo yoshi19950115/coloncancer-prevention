@@ -1,0 +1,9 @@
+<%= form_tag(controller: "tops", action: "disease") do %>
+  <%= check_box_tag("check0") %>
+  <%= label_tag("check0", "赤身肉(牛、豚、羊、馬)摂取量が1日100g未満である") %>
+  <%= check_box_tag("check1") %>
+  <%= label_tag("check1", "赤身肉(牛、豚、羊、馬)摂取量が1日100g以上である") %>
+
+
+  <%= submit_tag("Click") %>
+<% end %>
