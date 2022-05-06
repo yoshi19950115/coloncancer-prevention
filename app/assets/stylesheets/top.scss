@@ -1,0 +1,91 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+  float: left;
+  /* 上下のpaddingを33px、左右のpaddingを20pxにしてください */
+  padding:33px 20px;
+
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  /* 上下のpaddingを20px、左右のpaddingを40pxにしてください */
+  padding:20px 40px;
+  a{color:inherit;
+  text-decoration: none;}
+  a:hover{color:gold;}
+}
+
+
+
+.main {
+  padding: 100px 30px;
+  }
+
+
+
+.copy-container h1 {
+  font-size: 20px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.footer {
+  /* background-colorを#2f5167に変更してください */
+  background-color: #2f5167;
+
+  /* colorを#fffにしてください */
+  color:#fff;
+
+  /* heightを120pxに変更してください */
+  height: 120px;
+
+  padding-right: 400px;
+  /* 上下左右のpaddingを40pxにしてください */
+  padding-left: 40px;
+
+  padding-top: 40px;
+
+  padding-bottom: 40px;
+
+  position: absolute;
+
+  bottom: 0;
+
+
+
+
+}
+
+/* footer-logoのfont-sizeとfloatを指定してください */
+.footer-logo{
+  font-size:32px;
+  float:left;
+}
+
+/* footer-listのfloatを指定してください */
+.footer-list{
+  float:right;
+
+}
+
+/* footer-listの中のli要素のpadding-bottomを指定してください */
+.footer-list li{
+  padding-bottom:20px;
+}
