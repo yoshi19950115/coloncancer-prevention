@@ -3,16 +3,64 @@
   <head>
     <link rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
-    <title>Colonalcancer</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+      <title>Colonalcancer</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <%= csrf_meta_tags %>
+      <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+      <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+      <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    </head>
+
+  <head>
+    <meta charset="utf-8">
+    <title>大腸癌</title>
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
+  <body>
+    <div class = "header">
+      <div class = "header-logo">
+        <a href="http://localhost:3000/top">大腸癌の予防アプリ</a></div>
+
+
+
+
+
+     <!-- <div>要素を追加し、「header-list」というclassをつけてください -->
+     <div class = "header-list">
+       <ul>
+         <li>
+          アプリの説明
+         </li>
+         <li>
+          私たちについて
+         </li>
+         <li>
+          よくあるご質問
+         </li>
+         <li>
+          ログイン
+         </li>
+       </ul>
+     </div>
+
+    </div>
+
+
 
   <body class="container">
     <%= yield %>
+
+    <div class="footer">
+       <div class="footer-logo">Prevention</div>
+       <div class="footer-list">
+         <ul>
+           <li>利用規約</li>
+           <li>利用データ</li>
+           <li>会社概要</li>
+           <li>お問い合わせ</li>
+         </ul>
+       </div>
+     </div>
   </body>
 </html>
